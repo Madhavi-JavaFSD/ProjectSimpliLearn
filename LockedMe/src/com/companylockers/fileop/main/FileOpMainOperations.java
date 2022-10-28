@@ -7,11 +7,12 @@ import com.companylockers.fileop.display.DisplayFiles;
 import com.companylockers.fileop.menu.fileOperations;
 
 /*
- * 
+ * FileOpMainOperations
  */
 public class FileOpMainOperations {
 
 	public static void main(String[] args) throws IOException {
+		System.out.println("***Company Lockers Pvt. Ltd. -- LockedMe Application***");
 		Scanner sc = new Scanner(System.in);		
 		boolean continueLoop = true;
 		while(continueLoop)

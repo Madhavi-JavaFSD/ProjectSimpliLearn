@@ -42,7 +42,8 @@ public class fileOperations {
 		}
 	}
 	public void addFile(Scanner sc) throws IOException {
-		String path="C:\\Users\\shash\\eclipse-workspace\\LockedMe\\src\\files\\";
+		String path="C:\\Project\\ProjectSimpliLearn\\LockedMe\\src\\files\\";
+		
 		System.out.println("enter the file in the directory of "+path);
 		String filename=sc.next();
 		File f = new File(path+filename);
@@ -58,7 +59,7 @@ public class fileOperations {
 
 	}
 	public void deleteFile(Scanner sc) {
-		String path="C:\\Users\\shash\\eclipse-workspace\\LockedMe\\src\\files\\";
+		String path="C:\\Project\\ProjectSimpliLearn\\LockedMe\\src\\files\\";
 		System.out.println("enter the file in the directory of " + path);
 		String filename=sc.next();
 		//File
@@ -74,7 +75,7 @@ public class fileOperations {
 
 	}	
 	public void searchFile(Scanner sc) {
-		String path="C:\\Users\\shash\\eclipse-workspace\\LockedMe\\src\\files\\";
+		String path="C:\\Project\\ProjectSimpliLearn\\LockedMe\\src\\files\\";
 		System.out.println("enter the file in the directory of "+path);
 		String filename=sc.next();
 		File f=new File(path);
