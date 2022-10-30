@@ -25,6 +25,7 @@ public class DisplayFiles {
 			for(String s:filenames){
 				System.out.println(s);
 			}
+			System.out.println();
 		}
 		else if(filenames != null  && filenames.size() == 0) {
 			System.out.println("No Files to be displayed in this location.\n");

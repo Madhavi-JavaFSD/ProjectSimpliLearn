@@ -13,6 +13,7 @@ public class FileOpMainOperations {
 
 	public static void main(String[] args) throws IOException {
 		System.out.println("***Company Lockers Pvt. Ltd. -- LockedMe Application***");
+		System.out.println("\n***You can perform file related operations here. The operation to add a file is\n case-insensitive while the search and delete file operations are case-sensitive.***\n");
 		Scanner sc = new Scanner(System.in);		
 		boolean continueLoop = true;
 		while(continueLoop)
@@ -27,7 +28,7 @@ public class FileOpMainOperations {
 				int optionChosen = sc.nextInt();
 				switch(optionChosen) {
 				case 1:
-					System.out.println("You have chosen to display all the files.\n");
+					System.out.println("You have chosen to display all the files-\n");
 					DisplayFiles obj = new DisplayFiles();
 					obj.displayAllFiles();
 					break;
